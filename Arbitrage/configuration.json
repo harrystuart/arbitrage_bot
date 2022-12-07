@@ -1,0 +1,87 @@
+{
+  "ladbrokesService": {
+    "baseSiteUrl": "https://www.ladbrokes.com.au",
+    "categories": [
+      {
+        "sport": "AFL",
+        "id": "23d497e6-8aab-4309-905b-9421f42c9bc5"
+      },
+      {
+        "sport": "TableTennis",
+        "id": "b92b2d14-10f7-46c7-8655-16eeed36ec4b"
+      },
+      {
+        "sport": "Boxing",
+        "id": "a8217d48-3257-402b-b3b5-9db706fdc1e0"
+      },
+      {
+        "sport": "Baseball",
+        "id": "02721435-4671-4cd0-98f7-15d41ee4103e"
+      },
+      {
+        "sport": "Soccer",
+        "id": "71955b54-62f6-4ac5-abaa-df88cad0aeef"
+      },
+      {
+        "sport": "Cricket",
+        "id": "94984918-dbac-432b-b420-c219ec9203f4"
+      }
+    ],
+    "getEventsUrl": "https://api.ladbrokes.com.au/v2/sport/event-request",
+    "getOddsUrl": "https://api.ladbrokes.com.au/v2/sport/event-card",
+    "baseEventUrl": "https://www.ladbrokes.com.au/sports/"
+  },
+  "unibetService": {
+    "baseSiteUrl": "https://www.unibet.com.au",
+    "getOddsUrl": "https://o1-api.aws.kambicdn.com/offering/v2018/ubau/betoffer/event/",
+    "getSportEventsUrls": {
+      "TableTennis": "https://www.unibet.com.au/sportsbook-feeds/views/filter/table_tennis/all/matches",
+      "Boxing": "https://www.unibet.com.au/sportsbook-feeds/views/filter/boxing/all/matches",
+      "Baseball": "https://www.unibet.com.au/sportsbook-feeds/views/filter/baseball/all/matches",
+      "Soccer": "https://www.unibet.com.au/sportsbook-feeds/views/filter/football/all/matches",
+      "Cricket": "https://www.unibet.com.au/sportsbook-feeds/views/filter/cricket/all/matches"
+    },
+    "baseEventUrl": "https://www.unibet.com.au/betting/sports/event/"
+  },
+  "bookerkeeperEntityComparer": {
+    "knownCorrespondingMarketNames": {
+      "Ladbrokes": {
+        "Boxing": {
+          "Fight Betting": [
+            "Match"
+          ]
+        }
+      },
+      "Unibet": {
+        "Boxing": {
+          "Match": [
+            "Fight Betting"
+          ]
+        }
+      }
+    },
+    "knownCorrespondingOddsNames": {
+      "Ladbrokes": {
+        "Boxing": {
+          "Draw": [
+            "X"
+          ],
+          "Draw or Technical Draw": [
+            "X"
+          ]
+        }
+      },
+      "Unibet": {
+        "Boxing": {
+          "X": [
+            "Draw",
+            "Draw or Technical Draw"
+          ]
+        }
+      }
+    }
+  },
+  "discord": {
+    
+  }
+}

@@ -1,0 +1,14 @@
+﻿{
+  "categories": [
+    {
+      "sport": "AFL",
+      "id": "23d497e6-8aab-4309-905b-9421f42c9bc5"
+    },
+    {
+      "sport": "TableTennis",
+      "id": "b92b2d14-10f7-46c7-8655-16eeed36ec4b"
+    }
+  ],
+  "getEventsUrl": "https://api.ladbrokes.com.au/v2/sport/event-request",
+  "getOddsUrl": "https://api.ladbrokes.com.au/v2/sport/event-card"
+}

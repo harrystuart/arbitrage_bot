@@ -1,0 +1,6 @@
+﻿{
+  "GetOddsUrl": "https://o1-api.aws.kambicdn.com/offering/v2018/ubau/betoffer/event/",
+  "GetSportEventsUrls": {
+    "TableTennis": "https://www.unibet.com.au/sportsbook-feeds/views/filter/table_tennis/all/matches"
+  }
+}
